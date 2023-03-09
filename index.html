@@ -2,32 +2,66 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Login</title>
-    <link rel="stylesheet" href="./style.css">
- <!--<style></style>-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Currículo</title>
 </head>
+
 <body>
-    <div id="login">
-        <form class="card">
-            <div class="card-header">
-                <h2>Login</h2>
-            </div>
-            <div class="card-content">
-                <div class="card-content-area">
-                    <label for="usuario">Usuário</label>
-                    <input type="text" id="usuario" autocomplete="off">
-                </div>
-                <div class="card-content-area">
-                    <label for="password">Senha</label>
-                    <input type="password" id="password" autocomplete="off">
-                </div>
-            </div>
-            <div class="card-footer">
-                <input type="submit" value="Login" class="submit">
-                <a href="#">Esqueceu a senha?</a>
-            </div>
-        </form>
+    <input type="checkbox" id="chkMenu">
+<!--Cabeçalho--->
+<header>
+    <div class="area-esquerda">
+        <h3>Sistema Fiep</h3>
     </div>
+    <div> 
+        <a href="#"class=btn-sair>Sair</a>
+    </div>
+
+    <label for="chkMenu">
+        <i id="btnMenu" class="fas fa-bars"></i>
+    </label>
+</header>
+<!--Menu--->
+
+    <nav>
+        <div class="perfil">
+            <img class="imagem-perfil" src="https://cdn3.iconfinder.com/data/icons/essential-rounded/64/Rounded-31-512.png" alt="imagem nãoencontrada">
+            <h4>Taíssa Gelinski</h4>
+        </div>
+
+        <a href="#">
+        <i class="fa fa-desktop"></i>
+        <span>Deskboard</span>
+        </a>
+
+        <a href="#">
+            <i class="fa fa-cogs"></i>
+            <span>Componentes</span>
+            </a>
+        
+        <a href="#">
+        <i class="fa fa-table"></i>
+        <span>Tabelas</span>
+        </a>
+
+        <a href="#">
+            <i class="fa fa-th"></i>
+            <span>Formulário</span>
+            </a>
+        
+        <a href="#">
+        <i class="fa fa-sliders-h"></i>
+        <span>Configuração</span>
+        </a>
+
+        <a href="#">
+        <i class="fa fa-info-circle"></i>
+        <span>Sobre</span>
+        </a>
+    </nav>
+<!--Conteúdo--->
+        <div class="conteudo"></div>
+<!--eu te amo-->
 </body>
 </html>
-<!--como fazer comentário-->
